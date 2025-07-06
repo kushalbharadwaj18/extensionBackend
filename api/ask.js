@@ -132,4 +132,4 @@ app.post("/api/ask", async (req, res) => {
 });
 
 // Export as Vercel serverless function
-module.exports = app;
+export default app;
